@@ -1,0 +1,221 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Courier New', 'Papyrus';
+    line-height: 1.6;
+    background-color: #000000;
+    color: #909090;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    font-family: 'Georgia';
+    background: #000000;
+    color: rgb(134, 134, 134);
+    padding: 2rem;
+    text-align: center;
+}
+
+header img.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav {
+    background: #000000;
+    color: #909090;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #5500ff;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+section p, section ul {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        padding: 0.5rem;
+    }
+}
+hobbies {
+    text-align: center; /* Center all the content in this section */
+    margin: 0 auto; /* Center the section itself on the page */
+}
+
+hobbies .hobby-content {
+    display: inline-block; /* Allow each hobby-content block to be centered */
+    margin: 20px; /* Add some space around each hobby */
+    text-align: center; /* Center the content inside each hobby-content block */
+}
+
+.hobby-pic {
+    width: 150px; /* Adjust size of the image */
+    height: auto;
+    margin: 0 auto; /* Center the image horizontally */
+    display: block;
+}
+
+hobbies h3 {
+    margin-top: 10px; /* Add a bit of space between the image and the text */
+    text-align: center;
+}
+
+#hobbies {
+    text-align: center;
+    background-color: #c1bfbf;
+    padding: 20px;
+}
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#hobbies li {
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.hobby-pic {
+    display: block;
+    margin: 0 auto;
+}
+
+#about {
+    background-color: rgb(137, 182, 250);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#contact {
+    background-color: skyblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+#skills {
+    background-color: rgb(251, 251, 251);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skills li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* BG on rows */
+
+#skills {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#skills .odd {
+    background-color: rgb(127, 127, 127);
+    padding: 10px;
+}
+
+#skills .even {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+img{
+    height: 300px;
+    border-radius: 50%;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="index.style.css">
+</head>
+<body>
+    <header>
+        <img src="axcel.jpeg" alt="Profilefgfgfgfgfgghfhfwrwrs Picture">
+        <h1>John Axcel O. Boongaling</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>   
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I’m Axcel, I’m 20 years old and currently in my third year studying Bachelor of Science and Information Systems at City College of Calapan.</p>
+    </section>
+
+    <section id="skills">
+        <table>
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="even">
+                    <td><b>Writing and Communicating Skills</b></td>
+                    <td><p style="text-align:justify;">
+                        I'm good at <b>Writing and Communicating Skills.</b> I’m good at writing and communicating because I can clearly express my thoughts and ideas, making them easy for others to understand. I have a strong vocabulary that helps me choose the right words, and I actively listen to others, which allows me to respond thoughtfully. I adapt my style based on my audience, whether in formal settings or casual conversations.</td>
+                        </p>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    
+    
+
+    <section id="hobbies" style="text-align: center;">
+        <h2>Hobbies</h2>
+        <p><b>Below are my hobbies that I enjoy during my Free Time.</b></p>
+        <ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;">
+            <li style="margin: 65px;">
+                <img src="gaming.jpeg.webp" alt="hobby 1 image" class="hobby-pic">
+                <h3><b><u><i>Playing</i></u></b></h3>
+                <section id="contact">
+                    <h3><a href="https://www.pubgmobile.com/en-US/home.shtml">Site: PUBG</a></h3>
+                </section>
+            </li>
+            <li style="margin: 65px;">
+                <img src="eating.jpeg" alt="hobby 1 image" class="hobby-pic">
+                <h3><b><u><i>Eating</i></u></b></h3>
+                <section id="contact">
+                    <h3><a href="https://www.foodpanda.ph">Site: Food</a></h3>
+                </section>
+            </li>
+            <li style="margin: 65px;">
+                <img src="watching.jpeg" alt="hobby 1 image" class="hobby-pic">
+                <h3><b><u><i>Watching</i></u></b></h3>
+                <section id="contact">
+                    <h3><a href="https://www.crunchyroll.com/?srsltid=AfmBOooOpMuTEDetMRoygygfSVcgDv7xfHDpVAiE1QPi3KgsW3yXAkpd">Site: Anime</a></h3>
+                </section>
+            </li>
+            <li style="margin: 65px;">
+                <img src="images.jpeg" alt="hobby 1 image" class="hobby-pic">
+                <h3><b><u><i>Drinking Beverage</i></u></b></h3>
+                <section id="contact">
+                    <h3><a href="https://www.allrecipes.com/recipes/77/drinks/">Site: Drinks</a></h3>
+                </section>
+            </li>
+            <li style="margin: 65px;">
+                <img src="sleeping.jpeg" alt="hobby 1 image" class="hobby-pic">
+                <h3><b><u><i>Sleeping</i></u></b></h3>
+                <section id="contact">
+                    <h3><a href="https://www.ikea.com/ph/en/cat/beds-bm003/">Site: Bed</a></h3>
+                </section>
+            </li>
+        </ul>
+    </section>
+    
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduce Yourself</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Introduce Yourself</h2>
+        <form>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name"><br><br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name"><br><br>
+
+            <label>Eye Color:</label><br>
+            <input type="radio" id="brown" name="eye-color" value="brown" checked>
+            <label for="brown">Brown</label><br>
+
+            <input type="radio" id="blue" name="eye-color" value="blue">
+            <label for="blue">Blue</label><br>
+
+            <input type="radio" id="green" name="eye-color" value="green">
+            <label for="green">Green</label><br>
+
+            <input type="radio" id="other" name="eye-color" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label>My Pets:</label><br>
+            <input type="checkbox" id="dog" name="pets" value="dog" checked>
+            <label for="dog">Dog</label><br>
+
+            <input type="checkbox" id="cat" name="pets" value="cat" checked>
+            <label for="cat">Cat</label><br>
+
+            <input type="checkbox" id="hamster" name="pets" value="hamster">
+            <label for="hamster">Hamster</label><br>
+
+            <input type="checkbox" id="fish" name="pets" value="fish">
+            <label for="fish">Fish</label><br><br>
+
+            <label for="languages">Foreign Languages Spoken:</label><br>
+            <select id="languages" name="languages">
+                <option value="french">French</option>
+                <option value="english">English</option>
+                <option value="japanese">Japanese</option>
+                <option value="chinese">Chinese</option>
+                <option value="british">British</option>
+                <option value="tagalog">Tagalog</option>
+            </select><br><br>
+
+            <label for="about">Tell us some more about yourself:</label><br>
+            <textarea id="about" name="about" rows="4" cols="40">Type here.</textarea><br><br>
+
+            <input type="submit" value="All Done!">
+        </form>
+    </div>
+    <section id="contact">
+        <h2>Contacts</h2>
+        <h3><a href="https://www.facebook.com/johnaxcel.boongaling">FB: John Axcel O. Boongaling</a></h3>
+            &#9742 09917717355 <br>
+         <p>&#9993 <a href="17johnaxcel@gmail.com">17johnaxcel@gmail.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 John Axcel O. Boongaling</p>
+    </footer>
+</body>
+</body>
+</html>
